@@ -77,7 +77,7 @@ SearchBtn.addEventListener('click', (e) => {
     e.preventDefault();
     const searchInput = SearchBox.value.trim();
     if(!searchInput){
-        recipeContainer.innerHTML=`<h2> type the meal in  the srach box</h2>`;
+        recipeContainer.innerHTML=`<h2> Type the meal in  the srach box</h2>`;
         return;
     }
     fetchRcipe(searchInput);
